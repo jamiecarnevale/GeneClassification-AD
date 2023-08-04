@@ -37,28 +37,34 @@ Normalized gene expression data
 - low values = low RNA expression
 
 ## Best Model: Logistic Regression
-Accuracy: 87%		
-ROC_AUC: 93%
+- Accuracy: 87%		
+- ROC_AUC: 93%
 
 ## Model Metrics:
 
 #### Confusion Matrix:
-
+![Confusion Matrix](images/confusionmatrix.png)
 #### Classificaiton Matrix:
-
+![Classification Matrix](images/classificationmatrix.png)
 #### ROC AUC:
-
+![ROC AUC](images/ROC_AUC.png)
 
 ## Logistic Regression Weights
+![Decrease Coefficient](images/decreasecoef.png)
+![Increase Coefficient](images/increasecoef.png)
 
-
-## Key Genes:
-
+## Takeaways:
+### Key Genes
 ### TIMM44:
-Description: TIMM44 is involved in mitochondrial protein import machinery, having a role in energy production and glucose metabolism within cells.
+TIMM44 is a protein that plays an essential role in the transport of other proteins into mitochondria, the energy factories of our cells. Specifically, it operates as part of the translocase of the inner mitochondrial membrane (TIM23) complex. The TIM23 complex is responsible for recognizing and ushering proteins with a mitochondrial targeting signal into the inner mitochondrial membrane and matrix. The function of TIMM44 is to anchor another protein called heat shock protein 70 (Hsp70) to the TIM23 complex. The interaction between TIMM44 and Hsp70 is crucial for the import process, which contributes to the overall function of the mitochondria and, subsequently, energy production and glucose metabolism within cells.
 
 ### MT-CO2:
-Description: MT-CO2 codes for an integral component of the mitochondrial respiratory chain, a crucial system for energy production in the cell. It significantly influences cellular glucose metabolism.
+MT-CO2 encodes one of the subunits of the Cytochrome c Oxidase (Complex IV), which is a part of the mitochondrial respiratory chain. This chain of proteins and molecules within the mitochondria is responsible for producing the majority of the cell's energy in the form of ATP through oxidative phosphorylation. The MT-CO2 protein is integral to the function of Complex IV, which catalyzes the last step of the respiratory chain where electrons are transferred to oxygen, reducing it to water. This process is coupled with the pumping of protons across the mitochondrial membrane, setting up a gradient that drives ATP production. Thus, MT-CO2 significantly contributes to cellular energy supply and impacts glucose metabolism.
+
+### Long Non-coding RNAs
+Our RNA sequence data exploration and modeling suggest that long non-coding RNAs (lncRNAs) could be important contributors to the disease process, yet our understanding of these RNA molecules is still in its early stages. In fact, four of the aforementioned top ten features are lncRNAs: AL645929.3, AC006213.7, WEE2-AS1, and LINC01410 (SNHG16 is a small nucleolar RNA). LncRNAs are RNA sequences that do not code for proteins. Although they don't produce proteins, they are increasingly recognized for their roles in regulating gene expression, guiding protein interactions, and even interacting with cellular structures. However, much of their precise functions, including that of AL645929.3, remain elusive. A better understanding of these enigmatic molecules could provide new insights into disease mechanisms and potentially uncover new therapeutic targets. 
+
+
 
 ## Next Steps
 - Analyze and model on Whole Genome Sequencing for TIMM44 and MT-CO2
