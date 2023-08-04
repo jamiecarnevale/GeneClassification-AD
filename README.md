@@ -29,16 +29,23 @@ How RNA-Seq Works:
 - MSBB (Mount Sinai Brain Bank)
 - MAYO Clinic Study
 
-## Key Metric:
-Residual Counts: 
-Normalized gene expression data
-- normalization reduces technical variation and make samples more comparable
-- high values = high RNA expression
-- low values = low RNA expression
+## Key Metric: Residual Counts
+We're looking at Residual Counts, which is a term for normalized gene expression data. In simpler terms, this refers to the amount of specific RNA in our samples.
+
+Normalization is a process applied to our data that minimizes technical differences between our samples. This way, any changes we see are more likely to be due to biological differences and not just technical inconsistencies.
+
+If a gene has high residual counts, it means there's a high level of that RNA present in our sample. Conversely, if a gene has low residual counts, it means there's a lower amount of that RNA in our sample. So, we're using these counts as a way to understand the levels of RNA expression for specific genes in our samples.
 
 ## Best Model: Logistic Regression
+
 - Accuracy: 87%		
 - ROC_AUC: 93%
+  
+To optimize the predictive power of my models, I transformed the target variable of 'Has Alzheimer's' into a binary format. By focusing solely on clear-cut cases of Alzheimer's and non-Alzheimer's, I ensured a more definitive classification task.
+
+In testing a range of models, including Random Forest, XGBoost, and a Sequential Neural Network, Logistic Regression consistently demonstrated superior performance in terms of accuracy and ROC_AUC. The binary nature of the target variable was particularly conducive to the binary logistic regression model, enhancing its predictive capability.
+
+Additionally, I undertook hyperparameter tuning for the Logistic Regression model. Interestingly, the most optimal performance was achieved using the default parameters, attesting to the robustness and appropriateness of Logistic Regression for this specific dataset.
 
 ## Model Metrics:
 
