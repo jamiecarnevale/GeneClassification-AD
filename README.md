@@ -17,11 +17,14 @@ More recently, scientists have started to explore the role of the blood-brain ba
 
 
 ## RNA-Seq Overview
+
+RNA-Seq is a technique used to examine the quantity and sequences of RNA in a sample. By giving us a detailed view of the RNA present, it helps reveal what genes are active and how much they're being expressed.
+
 How RNA-Seq Works: 
-- extract RNA
-- make cDNA (complementary DNA) from it
-- sequence cDNA to recreate RNA (this time with labels)
-- run through machine to translate labels into sequence data
+- Extraction: Collect all the RNA from the sample.
+- cDNA Synthesis: Convert the collected RNA into complementary DNA (cDNA).
+- Sequencing: Sequence cDNA to recreate RNA (this time with labels)
+- Translation: Run through machine to translate labels into sequence data
   
 
 ## Data Sources:
