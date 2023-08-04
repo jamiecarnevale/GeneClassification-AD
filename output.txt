@@ -1,0 +1,10 @@
+chr19	7927087	None	C	('T',)	761.77001953125	<pysam.libcbcf.VariantRecordFilter object at 0x1072d1130>	<pysam.libcbcf.VariantRecordInfo object at 0x1072d1130>
+chr19	7928849	None	G	('A',)	336.7699890136719	<pysam.libcbcf.VariantRecordFilter object at 0x107784b20>	<pysam.libcbcf.VariantRecordInfo object at 0x107784b20>
+chr19	7928923	None	CA	('C',)	30.729999542236328	<pysam.libcbcf.VariantRecordFilter object at 0x10581fb20>	<pysam.libcbcf.VariantRecordInfo object at 0x10581fb20>
+chr19	7930131	None	T	('G',)	969.77001953125	<pysam.libcbcf.VariantRecordFilter object at 0x10728ebb0>	<pysam.libcbcf.VariantRecordInfo object at 0x10728ebb0>
+chr19	7931929	None	G	('A',)	738.77001953125	<pysam.libcbcf.VariantRecordFilter object at 0x107784b20>	<pysam.libcbcf.VariantRecordInfo object at 0x107784b20>
+chr19	7935167	None	CT	('C',)	50.72999954223633	<pysam.libcbcf.VariantRecordFilter object at 0x1072d1130>	<pysam.libcbcf.VariantRecordInfo object at 0x1072d1130>
+chr19	7938665	None	C	('G',)	1124.77001953125	<pysam.libcbcf.VariantRecordFilter object at 0x10728ebb0>	<pysam.libcbcf.VariantRecordInfo object at 0x10728ebb0>
+chr19	7939010	None	GT	('G',)	1418.72998046875	<pysam.libcbcf.VariantRecordFilter object at 0x10728ebb0>	<pysam.libcbcf.VariantRecordInfo object at 0x10728ebb0>
+chr19	7939037	None	AG	('A',)	1204.72998046875	<pysam.libcbcf.VariantRecordFilter object at 0x1072d1130>	<pysam.libcbcf.VariantRecordInfo object at 0x1072d1130>
+chr19	7941174	None	T	('C',)	619.77001953125	<pysam.libcbcf.VariantRecordFilter object at 0x10581fb20>	<pysam.libcbcf.VariantRecordInfo object at 0x10581fb20>
