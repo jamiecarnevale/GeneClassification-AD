@@ -2,18 +2,18 @@
 
 ## Alzheimer's Research Background
 ### Classic View - Amyloid Beta Plaques 
-Alois Alzheimer himself noted the presence of these plaques when he first described the disease in 1906. However, it wasn't until the 1980s that scientists were able to identify the primary component of these plaques: a protein fragment known as amyloid-beta. The "amyloid cascade hypothesis" emerged as a dominant theory, suggesting that the accumulation of amyloid-beta in the brain is the primary influence driving Alzheimer's disease progression. Part of the dominance of this theory comes from the early recognition of the plaques in patients with Alzheimer's, however, it is unclear as to whether amyloid beta plaques and tau tangles lead to Alzheimer's Disease or if they are a product of the disease. In the last few years, multiple highly cited studies' data that supported this hypothesis have been called into question as fraudulent, casting further doubt on the dominance of this theory (see links below about this).
+Alois Alzheimer himself noted the presence of these plaques when he first described the disease in 1906. However, it wasn't until the 1980s that scientists were able to identify the primary component of these plaques: a protein fragment known as amyloid-beta. The "amyloid cascade hypothesis" emerged as a dominant theory, suggesting that the accumulation of amyloid-beta in the brain is the primary influence driving Alzheimer's disease progression. Part of the dominance of this theory comes from the early recognition of the plaques in patients with Alzheimer's, however, it is unclear as to whether amyloid beta plaques and tau tangles lead to Alzheimer's Disease or if they are a product of the disease. In the last few years, data from multiple highly cited studies that supported this hypothesis have been called into question as fraudulent, casting further doubt on the dominance of this theory (see links below about this).
 
 https://www.science.org/content/article/potential-fabrication-research-images-threatens-key-theory-alzheimers-disease
 https://www.science.org/content/blog-post/faked-beta-amyloid-data-what-does-it-mean
 
 ### Glucose Metabolism Problems
-In late 20th century, researchers began to understand the role of glucose metabolism in Alzheimer's. Positron emission tomography (PET) scans showed decreased glucose usage in the brains of Alzheimer's patients, indicating potential metabolic dysfunction. Studies have suggested that this dysfunction could lead to an energy crisis in the brain, affecting neuron health and function. Notably, some theories that align with this hypothesis include a dysfunction in the mitochondria. For example, one research paper states: "Our hypothesis unequivocally states in sporadic, late-onset AD, mitochondrial function affects amyloid precursor protein (APP) expression, APP processing, or beta amyloid (Aβ) accumulation and argues if an amyloid cascade truly exists, mitochondrial function triggers it." (Swerdlow) 
+In the late 20th century, researchers began to understand the role of glucose metabolism in Alzheimer's. Positron emission tomography (PET) scans showed decreased glucose usage in the brains of Alzheimer's patients, indicating potential metabolic dysfunction. Studies have suggested that this dysfunction could lead to an energy crisis in the brain, affecting neuron health and function. Notably, some theories that align with this hypothesis include a dysfunction in the mitochondria. For example, one research paper states: "Our hypothesis unequivocally states in sporadic, late-onset AD, mitochondrial function affects amyloid precursor protein (APP) expression, APP processing, or beta amyloid (Aβ) accumulation and argues if an amyloid cascade truly exists, mitochondrial function triggers it." (Swerdlow) 
 
 Swerdlow, R. H., Burns, J. M., & Khan, S. M. (2013). The Alzheimer's disease mitochondrial cascade hypothesis: Progress and perspectives. Biochimica et Biophysica Acta (BBA) - Molecular Basis of Disease. https://doi.org/10.1016/j.bbadis.2013.09.010
 
 ### Blood-Brain Barrier Dysfunction 
-More recently, scientists have started to explore the role of the blood-brain barrier in Alzheimer's disease. The BBB, which protects the brain from harmful substances, appears to become leaky in Alzheimer's disease, potentially leading to inflammation and further neuronal damage. This area of research has gained more attention since the 2010s, but the exact mechanisms and implications are still being explored.
+More recently, scientists have started to explore the role of the blood-brain barrier (BBB) in Alzheimer's disease. The BBB, which protects the brain from harmful substances, appears to become leaky in Alzheimer's disease, potentially leading to inflammation and further neuronal damage. This area of research has gained more attention since the 2010s, but the exact mechanisms and implications are still being explored.
 
 
 ## RNA-Seq Overview
@@ -23,8 +23,8 @@ RNA-Seq is a technique used to examine the quantity and sequences of RNA in a sa
 How RNA-Seq Works: 
 - Extraction: Collect all the RNA from the sample.
 - cDNA Synthesis: Convert the collected RNA into complementary DNA (cDNA).
-- Sequencing: Sequence cDNA to recreate RNA (this time with labels)
-- Translation: Run through machine to translate labels into sequence data
+- Sequencing: Sequence cDNA to recreate RNA (this time with labels).
+- Translation: Run through machine to translate labels into sequence data.
   
 
 ## Data Sources:
@@ -54,7 +54,7 @@ Additionally, I undertook hyperparameter tuning for the Logistic Regression mode
 
 #### Confusion Matrix:
 ![Confusion Matrix](images/confusionmatrix.png)
-#### Classificaiton Matrix:
+#### Classification Matrix:
 ![Classification Matrix](images/classificationmatrix.png)
 #### ROC AUC:
 ![ROC AUC](images/ROC_AUC.png)
